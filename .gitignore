@@ -1,0 +1,26 @@
+# macOS
+.DS_Store
+
+# Swift build artifacts
+/.build/
+/.swiftpm/
+/Packages/
+DerivedData/
+xcuserdata/
+
+# Local runtime and test artifacts
+/.tmp/
+
+# Local-only instructions and agent context
+/AGENTS.md
+AGENTS.local.md
+*.local.md
+
+# Local test and benchmark material
+/LocalTests/
+
+# Local credentials and machine-specific config
+.env
+.env.*
+!.env.example
+.netrc
